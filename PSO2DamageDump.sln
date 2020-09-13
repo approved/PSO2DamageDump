@@ -1,22 +1,31 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26403.7
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PSO2DamageDump", "PSO2DamageDump\PSO2DamageDump.vcxproj", "{95FEE125-A850-4161-8682-A18BD604BAD5}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PSO2DamageDump", "PSO2DamageDump\PSO2DamageDump.vcxproj", "{D47F1010-143C-42D6-84F9-AFAAF0BDCF95}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{95FEE125-A850-4161-8682-A18BD604BAD5}.Debug|x86.ActiveCfg = Debug|Win32
-		{95FEE125-A850-4161-8682-A18BD604BAD5}.Debug|x86.Build.0 = Debug|Win32
-		{95FEE125-A850-4161-8682-A18BD604BAD5}.Release|x86.ActiveCfg = Release|Win32
-		{95FEE125-A850-4161-8682-A18BD604BAD5}.Release|x86.Build.0 = Release|Win32
+		{D47F1010-143C-42D6-84F9-AFAAF0BDCF95}.Debug|x64.ActiveCfg = Debug|x64
+		{D47F1010-143C-42D6-84F9-AFAAF0BDCF95}.Debug|x64.Build.0 = Debug|x64
+		{D47F1010-143C-42D6-84F9-AFAAF0BDCF95}.Debug|x86.ActiveCfg = Debug|Win32
+		{D47F1010-143C-42D6-84F9-AFAAF0BDCF95}.Debug|x86.Build.0 = Debug|Win32
+		{D47F1010-143C-42D6-84F9-AFAAF0BDCF95}.Release|x64.ActiveCfg = Release|x64
+		{D47F1010-143C-42D6-84F9-AFAAF0BDCF95}.Release|x64.Build.0 = Release|x64
+		{D47F1010-143C-42D6-84F9-AFAAF0BDCF95}.Release|x86.ActiveCfg = Release|Win32
+		{D47F1010-143C-42D6-84F9-AFAAF0BDCF95}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4F28B8A-5FF8-4D61-8CDE-D217B7F89F60}
 	EndGlobalSection
 EndGlobal

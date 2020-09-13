@@ -1,9 +1,9 @@
 #include <windows.h>
-#include "..\PSO2HBinaries\packet.h"
+#include "../PSO2HBinaries/packet.h"
 
 namespace PSO2DamageDump
 {
-	PACKED(
+	__pragma(pack(push, 1))
 	struct PacketCharacterInfo
 	{
 		DWORD playerID; //0x8-0xB
@@ -13,26 +13,26 @@ namespace PSO2DamageDump
 		WCHAR title[0x24]; //1c4-0x20b
 		WCHAR account[0x40]; //20c-28b
 	} ATTRPACK;
-	);
+	__pragma(pack(pop))
 
-	PACKED(
+	__pragma(pack(push, 1))
 	struct PacketUserInfo
 	{
 		DWORD playerID; //0x8-0xB
 		//Don't care about the rest!
 	} ATTRPACK;
-	);
+	__pragma(pack(pop))
 
-	PACKED(
+	__pragma(pack(push, 1))
 	struct PacketSpawnInfo
 	{
 		DWORD ID; //0x8-0xB
 		BYTE unk1[0x18]; //0xc-0x23
 		CHAR name[0x1D]; //0x24-?, not sure how long it is
 	} ATTRPACK;
-	);
+	__pragma(pack(pop))
 
-	PACKED(
+	__pragma(pack(push, 1))
 	struct PacketDamage
 	{
 		DWORD playerID; //0x8-0xB
@@ -48,9 +48,9 @@ namespace PSO2DamageDump
 		BYTE flags; //0x44
 		BYTE unk5[11]; //0x45-0x50
 	} ATTRPACK;
-	);
+	__pragma(pack(pop))
 
-	PACKED(
+	__pragma(pack(push, 1))
 	struct PacketVehicleSpawn //08.10
 	{
 		DWORD objID;
@@ -60,10 +60,10 @@ namespace PSO2DamageDump
 		DWORD ownerID;
 		BYTE unk3[0x8];
 	} ATTRPACK;
-	);
+	__pragma(pack(pop))
 
 
-	PACKED(
+	__pragma(pack(push, 1))
 	struct PacketPetSpawn //08.11
 	{
 		DWORD petID;
@@ -73,10 +73,10 @@ namespace PSO2DamageDump
 		DWORD ownerID;
 		BYTE unk3[0x20];
 	} ATTRPACK;
-	);
+	__pragma(pack(pop))
 
 
-	PACKED(
+	__pragma(pack(push, 1))
 	struct PacketPlayerAction //04.15
 	{
 		DWORD playerID;
@@ -87,5 +87,5 @@ namespace PSO2DamageDump
 		BYTE unk3[0x1C];
 		CHAR action[0xC];
 	} ATTRPACK;
-	);
+	__pragma(pack(pop))
 }
