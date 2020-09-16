@@ -76,13 +76,7 @@ namespace PSO2DamageDump
         PSO2Hook::pso2hRegisterHandlerRecv(&GameData::getUserInfo,         0x0F, 0x0D, "Get current player ID");
         PSO2Hook::pso2hRegisterHandlerRecv(&GameData::getUserActionInfo,   0x04, 0x15, "Get user action info (for turret mounting)");
         PSO2Hook::pso2hRegisterHandlerRecv(&GameData::getObjectInfo,       0x08, 0x10, "Get object ID to map to owner");
-
-        // Sleep to prevent unloading the .dll
-        while (true)
-        {
-            Sleep(1000);
-        }
-
+        
         return 0;
     }
 }
