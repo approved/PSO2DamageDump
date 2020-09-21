@@ -1,5 +1,5 @@
 #pragma once
-#include "../PSO2HBinaries/packet.h"
+#include "defs\packet.h"
 #include <unordered_map>
 
 namespace PSO2DamageDump

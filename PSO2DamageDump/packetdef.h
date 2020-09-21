@@ -1,5 +1,5 @@
 #include <windows.h>
-#include "../PSO2HBinaries/packet.h"
+#include "defs\packet.h"
 
 namespace PSO2DamageDump
 {

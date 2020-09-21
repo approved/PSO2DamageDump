@@ -5,7 +5,7 @@
 #include "dllmain.h"
 #include <codecvt>
 
-#include "..\PSO2HBinaries\packet.h"
+#include "defs/packet.h"
 #include "gamedata.h"
 
 namespace PSO2DamageDump

@@ -9,6 +9,8 @@
 #include <fstream>
 #include "dllmain.h"
 
+#include "defs/packet.h"
+
 namespace PSO2DamageDump
 {
 	static std::wstring_convert<std::codecvt_utf8_utf16<wchar_t>> Converter;
