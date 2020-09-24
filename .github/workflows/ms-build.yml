@@ -24,8 +24,6 @@ jobs:
 
       - name: setup-msbuild
         uses: microsoft/setup-msbuild@v1.0.1
-        with:
-          vs-version: '[16.0,16.0]'
         
       - name: run-msbuild
         working-directory: PSO2DamageDump
