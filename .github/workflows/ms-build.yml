@@ -27,4 +27,4 @@ jobs:
         
       - name: run-msbuild
         working-directory: PSO2DamageDump
-        run: msbuild PSO2DamageDump.vcxproj
+        run: echo msbuild PSO2DamageDump.vcxproj
