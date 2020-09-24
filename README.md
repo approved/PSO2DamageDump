@@ -7,7 +7,7 @@
         <img alt="repository license" src="https://img.shields.io/github/license/approved/PSO2DamageDump?style=for-the-badge"/>
     </a>
     <a href="https://github.com/approved/PSO2DamageDump/releases">
-        <img alt="release version" src="https://img.shields.io/github/v/tag/approved/PSO2DamageDump?style=for-the-badge&logo=C%2B%2B"/>
+        <img alt="release version" src="https://img.shields.io/github/v/tag/approved/PSO2DamageDump?style=for-the-badge&logo=visual-studio"/>
     </a>
     <a href="https://github.com/approved/PSO2DamageDump/graphs/contributors">
         <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/approved/PSO2DamageDump?color=green&logo=github&style=for-the-badge"/>
@@ -74,13 +74,11 @@ The use of any software that modifies the game client (e.g. PSO2 Tweaker, this p
 An official announcement from PSO2 relating to this topic is available [here](http://pso2.jp/players/news/9224/).
 <details>
     <summary>English translation</summary>
-    ```
-    The "PSO2" management team has confirmed the existence of an external tool that analyzes and acquires the internal information and numerical values of "PSO2".
-    
-    Using such an external tool is a violation of the Terms of Service, which violates Article 9 of the Terms of Service (Prohibition of cheating and cheating).
-    
-    We take measures to block access from external tools at any time, but if it is confirmed that such a tool is being used in the future, we will suspend the use of the corresponding account without notice based on the terms of use. Therefore, please do not use it.
-    ```
+    <p>
+        The "PSO2" management team has confirmed the existence of an external tool that analyzes and acquires the internal information and numerical values of "PSO2".<br>
+        Using such an external tool is a violation of the Terms of Service, which violates Article 9 of the Terms of Service (Prohibition of cheating and cheating).<br>
+        We take measures to block access from external tools at any time, but if it is confirmed that such a tool is being used in the future, we will suspend the use of the corresponding account without notice based on the terms of use. Therefore, please do not use it.
+    </p>
 </details>
 
 
