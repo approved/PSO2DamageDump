@@ -26,5 +26,4 @@ jobs:
         uses: microsoft/setup-msbuild@v1.0.1
         
       - name: run-msbuild
-        working-directory: .
         run: msbuild -verbosity:d
