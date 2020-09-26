@@ -26,5 +26,9 @@ jobs:
         uses: microsoft/setup-msbuild@v1.0.1
         
       - name: run-msbuild
-        working-directory: PSO2DamageDump
-        run: msbuild PSO2DamageDump.vcxproj -verbosity:d
+        run: msbuild /property:Configuration=Release
+
+      - name: release
+        uses: rymndhng/release-on-push-action@master
+        with: 
+          bump_version_sceme: minor
