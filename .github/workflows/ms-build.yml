@@ -31,5 +31,5 @@ jobs:
       - name: release
         uses: rymndhng/release-on-push-action@master
         with: 
-          bump_version_sceme: minor
+          bump_version_scheme: minor
           
