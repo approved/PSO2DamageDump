@@ -11,6 +11,8 @@ on:
       - "v*"
   pull_request:
     branches: [ master ]
+    tags:
+      - "v*"
     
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
@@ -24,6 +26,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
+        if: startsWith(github.event.ref, 'refs/tags')
 
       - name: setup-msbuild
         uses: microsoft/setup-msbuild@v1.0.1
