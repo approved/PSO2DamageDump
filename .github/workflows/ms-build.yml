@@ -26,7 +26,6 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-        if: startsWith(github.event.ref, 'refs/tags')
 
       - name: setup-msbuild
         uses: microsoft/setup-msbuild@v1.0.1
@@ -36,6 +35,7 @@ jobs:
 
       - name: release
         uses: "marvinpinto/action-automatic-releases@latest"
+        if: startsWith(github.event.ref, 'refs/tags')
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           prerelease: false
