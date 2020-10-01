@@ -3,6 +3,7 @@
 </h1>
 
 <p align="center">
+    <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/Approved/PSO2DamageDump/CI?style=for-the-badge">
     <a href="https://github.com/approved/PSO2DamageDump/blob/master/LICENSE">
         <img alt="repository license" src="https://img.shields.io/github/license/approved/PSO2DamageDump?style=for-the-badge"/>
     </a>
@@ -43,7 +44,7 @@ The following sections detail how to install this plugin for PSO2. While the pro
 
 ### Prerequisites
 This plugin requires an installation of the Japanese version of [Phantasy Star Online 2](https://pso2.jp/) with the [PSO2 Tweaker](https://arks-layer.com/) tool installed. The setup guides for these prerequisite software are available here:
-- [Phantasy Star Online 2: Setup](http://pso2.jp/players/manual/setup/pc/)
+- [Phantasy Star Online 2: Setup](https://arks-layer.com/setup.html)
 - [PSO2 Tweaker: Setup](https://arks-layer.com/setup.html)
 
 ### Obtaining Plugin
